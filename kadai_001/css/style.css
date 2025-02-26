@@ -1,0 +1,177 @@
+/* PC、スマホ共通 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 18px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 34px;
+  border: 1px solid #000000;
+  padding: 0 20px 0 20px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #000000;
+}
+
+nav {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 34px;
+  text-align: center;
+  margin: 60px auto 40px auto;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+#header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 150px 15px 150px;
+}
+
+.nav-pc ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-pc ul li a {
+  text-decoration: none;
+  color: #000000;
+  margin-right: 20px;
+}
+
+.nav-pc ul li a:hover {
+  text-decoration: underline;
+}
+
+#main-visual img {
+  width: 100%;
+}
+
+.about-container {
+  display: flex;
+  width: 820px;
+  margin: 0 auto;
+}
+
+.about-photo img {
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+  margin-right: 85px;
+}
+
+.about-text {
+  padding-top: 20px;
+}
+
+.works-container {
+  display: flex;
+  justify-content: space-between;
+  width: 752px;
+  margin: 0 auto;
+}
+
+.works-container div {
+  width: 32%;
+}
+
+.works-container div img {
+  width: 100%;
+}
+
+.works-text {
+  margin: 0;
+  padding-bottom: 60px;
+}
+#copyright {
+  text-align: center;
+}
+
+/* =================
+   スマホ用スタイル
+================== */
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  nav {
+    font-size: 21px;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin: 30px auto;
+  }
+
+  h3 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  #header-container {
+    margin: auto;
+    padding: 0 10px;
+  }
+
+  .nav-pc ul {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+
+  .nav-pc ul li a {
+    margin-right: 10px;
+  }
+
+  .about-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-photo {
+    align-self: center;
+  }
+
+  .about-photo img {
+    margin: auto;
+  }
+
+  .about-text {
+    padding-top: 0;
+    margin: 0 20px;
+  }
+
+  .works-container {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .works-container div {
+    width: 100%;
+  }
+
+  .works-text {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+}

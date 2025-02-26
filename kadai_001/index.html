@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Wendy+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>MyProfile</title>
+  </head>
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <section id="header-container">
+        <!-- タイトル -->
+        <h1><a href="index.html">MyProfile</a></h1>
+        <!-- ナビゲーション -->
+        <nav class="nav-pc">
+          <ul>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#works">Works</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+    <main>
+      <article>
+        <!-- メインビジュアル -->
+        <section id="main-visual">
+          <img src="images/main.png" alt="キャノンカメラ" />
+        </section>
+        <!-- ABOUT -->
+        <section id="about">
+          <h2>About</h2>
+
+          <div class="about-container">
+            <div class="about-photo">
+              <img src="images/about.png" alt="プロフィール写真" />
+            </div>
+            <div class="about-text">
+              <h3>Kazuki Asahina</h3>
+              <ul class="profile">
+                <li>25歳 長野県佐久市出身</li>
+                <li>ソフトウェア業界でマーケティングに従事</li>
+                <li>趣味はカメラ、愛機はCanon</li>
+                <li>自然を撮影するのが好きで、海や山によく行く</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- WORKS -->
+        <section id="works">
+          <h2>Works</h2>
+          <div class="works-container">
+            <div>
+              <img src="images/works1.png" alt="日本海" />
+              <p class="works-text">
+                新潟に訪れた際に、日本海の雄大さに魅了されて撮影した1枚
+              </p>
+            </div>
+            <div>
+              <img src="images/works2.png" alt="御嶽山" />
+              <p class="works-text">
+                地元長野の木曽町から撮影した、冠雪した御嶽山
+              </p>
+            </div>
+            <div>
+              <img src="images/works3.png" alt="京都の町並み" />
+              <p class="works-text">
+                京都で撮影した、明け方の古き良き日本の町並み
+              </p>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- フッター -->
+    <footer>
+      <p id="copyright">&copy;MyProfile.All rights reserved.</p>
+    </footer>
+  </body>
+</html>
